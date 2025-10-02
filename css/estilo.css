@@ -1,0 +1,52 @@
+/* Corpo do site */
+body {
+    font-family: Arial, sans-serif; /* Fonte simples para ler fácil */
+    background-color: #111; /* Fundo preto escuro */
+    color: #f1f1f1; /* Letras brancas */
+  }
+  
+  /* Todos os títulos ficam mais elegantes */
+  h1, h2, h3 {
+    font-family: 'Georgia', serif;
+  }
+  
+  /* Ícones das redes sociais */
+  .icon {
+    width: 40px; /* tamanho pequeno */
+    margin: 10px; /* espaço ao redor */
+    transition: transform 0.3s; /* efeito suave quando aumenta */
+  }
+  
+  /* Hover: efeito quando o mouse passa em cima */
+  .icon:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Imagens da galeria */
+  .galeria-img {
+    max-width: 100%; /* nunca ultrapassa o tamanho da coluna */
+    height: auto; /* mantém proporção */
+    display: block; /* força imagem como bloco */
+    margin: 0 auto; /* centraliza */
+    transition: transform 0.3s, filter 0.3s; /* efeito suave */
+  }
+  
+  /* Hover da galeria: zoom + brilho */
+  .galeria-img:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+  }
+  
+  /* Botão com efeito hover */
+  .btn-primary:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+    transition: 0.3s;
+  }
+  
+  /* Cabeçalho com gradiente e sombra */
+  header {
+    background: linear-gradient(to right, #000, #333);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  }
+  
